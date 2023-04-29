@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="190dp"
+        android:layout_height="165dp"
+        android:backgroundTint="#4CAF50"
+        android:text="User List" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="188dp"
+        android:layout_height="176dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Driver List" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="188dp"
+        android:layout_height="170dp"
+
+        android:layout_marginTop="0dp"
+
+        android:backgroundTint="#4CAF50"
+        android:baselineAligned="false"
+        android:text="Update Bin" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="188dp"
+        android:layout_height="146dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Complain" />
+
+</LinearLayout>
